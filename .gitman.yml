@@ -1,6 +1,6 @@
 location: .gitman
 sources:
-  - repo: git@github.com:LASER-Robotics/livox_ros_driver2.git
+  - repo: https://github.com/LASER-Robotics/livox_ros_driver2.git
     name: livox_ros_driver2
     rev: stable
     type: git
@@ -12,7 +12,7 @@ sources:
         target: ros_packages/livox_drivers
     scripts:
       - git submodule update --init --recursive
-  - repo: git@github.com:LASER-Robotics/realsense-ros.git
+  - repo: https://github.com/LASER-Robotics/realsense-ros.git
     name: realsense-ros
     rev: stable
     type: git
